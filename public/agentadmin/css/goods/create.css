@@ -1,0 +1,36 @@
+/*后台商品的创建和修改页面的css样式*/
+.addImages{
+    position: relative;
+}
+.text-detail
+{
+    text-align:center;
+    padding-top:8px;
+    display: inline-block ;
+    height: 100px;
+    width: 100px;
+    border: 1px solid gainsboro;
+}
+.span-jiahao{
+    font-size: 50px;
+    color:gainsboro;
+}
+.file{
+    display: inline-block ;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;left: 10px;opacity: 0;
+}
+.addImages>img{
+    height: 100px;
+    width: 100px;
+    border: 1px dashed #DCDCDC;
+    position: absolute;
+    top: 0;left: 18px;
+}
+.addImages>i{
+    font-size: 20px;
+    position: absolute;
+    top: -10px;left: 105px;
+}

@@ -1,0 +1,189 @@
+
+#order_submission .content{
+    width:65%;
+    margin:50px auto;
+    min-width: 1200px;
+}
+#order_submission .content .sub_msg {
+    width:100%;
+    border:1px solid #F0F0F0;
+}
+.content .sub_msg .sub_title {
+    padding:30px 0 30px 20px;
+}
+.content .sub_msg .sub_title div {
+    font-size:18px;
+    border-left:4px solid #FFAA00;
+    padding-left:10px;
+}
+.content .sub_msg .sub_bar {
+    background-color: #F5F5F5;
+    height:50px;
+    width:100%;
+    line-height: 50px;
+}
+.content .sub_msg .sub_bar div, .content .sub_msg .sub_describe>div, .sub_describe>div>div{
+    display: inline-block;
+    font-size:16px;
+}
+.content .sub_msg .sub_bar>div:first-child,.content .sub_msg .sub_describe>div:first-child{
+    width:50%;
+    padding-left:5.3333%;
+}
+.content .sub_msg .sub_bar>div+div,.sub_describe>div+div {
+    width:15.8333%;
+    text-align: center;
+}
+.content .sub_msg .sub_describe {
+    margin-top:10px;
+    margin-bottom:40px;
+    background-color: #F5F5F5;
+    padding:30px 0 30px;
+}
+.content .sub_msg .sub_describe>div:first-child>div:first-child img {
+    width:80px;
+    height: 80px;
+    border:1px solid #D6D6D6;
+}
+.content .sub_msg .sub_describe>div:first-child>div:nth-child(2) {
+    font-size:14px;
+    vertical-align:middle;
+    margin-left:20px;
+}
+.content .sub_msg .sub_describe>div:first-child>div:nth-child(2)>div:first-child {
+    font-size: 16px;
+}
+.content .sub_msg .sub_describe>div:first-child>div:nth-child(2) div:last-child {
+    margin-top:20px;
+}
+.content .sub_msg .sub_describe>div:first-child>div:nth-child(2) div:last-child span {
+    color:#A4A4A4;
+}
+.content .sub_msg .sub_describe>div:nth-child(3) a {
+    display: inline-block;
+    border:1px solid #D6D6D6;
+    background-color: #FEFEFE;
+    width:22px;
+    height:24px;
+    cursor: pointer;
+}
+.content .sub_msg .sub_describe>div:nth-child(3) a:hover {
+    background-color: #FFAA00;
+    color:#FFF;
+}
+.content .sub_msg .sub_describe .count_input {
+    position: relative;
+    top:-3px;
+    display: inline-block;
+    width:50px;
+    height:24px;
+    border:0;
+    border-top:1px solid #D6D6D6;
+    border-bottom:1px solid #D6D6D6;
+    background-color: #FEFEFE;
+}
+.content .sub_msg .sub_describe .total_input {
+    position: relative;
+    top:-3px;
+    display: inline-block;
+    width:70%;
+    background-color: inherit;
+    border:0;
+}
+.content .sub_msg .sub_list {
+    font-size:16px;
+}
+.content .sub_msg .sub_list>div {
+    margin-top:20px;
+}
+.content .sub_msg .sub_list>div:nth-child(-n+5)>label:before {
+    content: "*";
+    display: inline-block;
+    font-size: 16px;
+    color: #FFAA00;
+    margin-right:5px;
+}
+.content .sub_msg .sub_list>div>label {
+    display: inline-block;
+    width:165px;
+    text-align: right;
+    padding-right: 15px;
+    font-weight: 400;
+}
+.content .sub_msg .sub_list>div>input {
+    position: relative;
+    left:4px;
+    width: 450px;
+    height: 38px;
+    padding-left:10px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #E6E6E6;
+}
+.content .sub_msg .sub_list>div>input.jeinput {
+    display: inline-block;
+    left:0;
+    width: 200px;
+    height: 38px;
+    padding-left:10px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #E6E6E6;
+    background-color: #fff;
+}
+.content .sub_msg .sub_list>div:nth-child(4)>select {
+    width:200px;
+    height:38px;
+    border: 1px solid #E6E6E6;
+}
+.sub_list>div>textarea {
+    width:70%;
+    max-height:120px;
+    min-height: 120px;
+    border: 1px solid #E6E6E6;
+    margin-bottom:120px;
+}
+.content .sub_msg .total {
+    padding:20px;
+    background-color: #F5F5F5;
+    color:#515151;
+    width:100%;
+    font-size:15px;
+    text-align: right;
+}
+.content .sub_msg .total>div {
+    margin-bottom: 10px;
+}
+.total_count>span:first-child, .discount>span:first-child, .should_pay>span:first-child {
+    display: inline-block;
+    width:200px;
+    text-align: right;
+}
+.total_count>span:last-child, .discount>span:last-child, .should_pay>span:last-child {
+    display: inline-block;
+    width:150px;
+    text-align:center;
+}
+.discount input {
+    width:100px;
+}
+.content .sub_msg .total>div.should_pay>span.bottom_price {
+    font-size:22px;
+    color:#F78B00;
+}
+.content .sub_msg .total>div.address>span.address_detail {
+    margin-right:50px;
+}
+#order_submission .content .order_sub a{
+    text-align: center;
+    display: inline-block;
+    width:150px;
+    height:40px;
+    border-radius: 4px;
+    font-size:17px;
+    line-height: 40px;
+    font-weight: 600;
+    color:#FFF;
+    margin:50px auto;
+    background-color: #FFAA00;
+}

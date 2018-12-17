@@ -1,0 +1,154 @@
+/* .loading{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/loader.gif);
+} */
+.login--bg {
+    width: 100%;
+    min-height: 800px;
+    background: url(/home/public/images/login-bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.supplier-img {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.supplier-img.img {
+    display: block;
+}
+
+.login--input {
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    padding: 50px 44px;
+    width: 468px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 2px 2px 2px #999;
+    background: #fdfefe;
+}
+
+.login--input h3 {
+    color: #35d4a0;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.login--input h3:after {
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    content: "";
+    width: 96px;
+    height: 2px;
+    background: #35d4a0;
+}
+
+.login--input .bl-form-group {
+    background-color: #f2f2f2;
+}
+.login--input .error {
+    position: absolute;
+    top: 234px;
+    right: 30px;
+    background: #fff;
+}
+
+.login--input .bl-form-group span {
+    display: inline-block;
+    display: block\9 \0;
+    margin-top: 5 px\9 \0;
+    margin-right: 12px;
+    float: left\9 \0;
+}
+
+.login--input .bl-form-group input {
+    display: block\9 \0;
+    float: left\9 \0;
+    margin-bottom: 14 px\9 \0;
+    border: none;
+    color: #666;
+    background-color: #f2f2f2;
+}
+
+
+.login--input .passSave span,
+.login--input .passSave label {
+    color: #b2b2b2;
+    font-weight: 400;
+    margin-right: 7px;
+}
+
+.login--input .passSave span.title,
+.login--input .passSave label.title {
+    margin-right: 18px;
+}
+
+.login--input .passSave span.radio--left,
+.login--input .passSave label.radio--left {
+    margin-right: 32px;
+}
+
+.login--input .passSave label {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #cecece;
+    border-radius: 50%;
+}
+
+.login--input .passSave label.active em {
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #35d4a0;
+}
+
+.login--input .passSave input {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.login--input .btn-wap {
+    margin-top: 40px;
+}
+
+.login--input .btn-wap .login,
+.login--input .btn-wap .logout {
+    font-size: 18px;
+    padding: 9px 41px;
+    margin-right: 20px;
+    color: #fff;
+    border-color: transparent;
+}
+
+.login--input .btn-wap .login {
+    background-color: #fba500;
+}
+
+.login--input .btn-wap .logout {
+    background-color: #35d4a0;
+}
+
+.login--input .btn-wap .logout a{
+    color:inherit;
+}
+
+.login--input .btn-wap span {
+    color: #b2b2b2;
+}

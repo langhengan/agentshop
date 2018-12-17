@@ -1,0 +1,252 @@
+@charset "UTF-8";
+#navigation, #footer {
+   min-width: 1200px !important; 
+}
+
+#product_show {
+    margin-top: 60px;
+    min-width: 1200px; 
+}
+#product_show .product_show_left {
+    float: left;
+    margin-right: 80px; 
+}
+#product_show .product_show_right {
+    padding-top:20px;
+    float: left;
+}
+#product_show .product_show_right .product_show__title .blow {
+    font-size: 20px; 
+    font-weight: 800; 
+}
+#product_show .product_show_right .product_show__title .sub_title {
+    display: inline-block;
+    margin-left:15px;
+    margin-top:15px;
+    font-size: 14px;
+}
+#product_show .product_show_right .product_show__num--warp {
+    margin-top: 30px;
+    background-color: #fafafa;
+    padding: 20px; 
+}
+#product_show .product_show_right .product_show__num--warp .product_show__price {
+    float: left; 
+}
+#product_show .product_show_right .product_show__num--warp .product_show__price .title {
+    font-size: 14px;
+    color: #999;
+    margin-right: 20px; 
+}
+#product_show .product_show_right .product_show__num--warp .product_show__price .price {
+    font-size: 24px;
+    color: #fba500;
+    font-weight: 400; 
+}
+#product_show .product_show_right .product_show__num--warp .product_show__all {
+    float: right;
+    border-left: 1px solid #e6e6e6;
+    padding-left: 18px; 
+}
+#product_show .product_show_right .product_show__num--warp .product_show__all span {
+    display: block;
+    font-size: 14px;
+    color: #666; 
+}
+#product_show .product_show_right .product_show__num--warp .product_show__all span.num {
+    color: #1a93ca;   
+}
+#product_show .product_show_right .product_show__type--warp {
+    margin-top: 30px; 
+}
+#product_show .product_show_right .product_show__type--warp .title {
+    display: inline-block;
+    color: #999;
+    margin-right: 12px; 
+}
+#product_show .product_show_right .product_show__type--warp a {
+    margin-right: 10px;
+    border-radius: 0;
+    border: 1px solid #e6e6e6;
+    background: white;
+    font-size: 14px;
+    color: #999; 
+}
+.product_show__type--warp,.product_show__buy--warp,.product_show__add {
+  padding-left: 15px;
+}
+#product_show .product_show_right .product_show__type--warp a.active {
+    border: 1px solid #fba500;
+    color: #fba500; 
+}
+#product_show .product_show_right .product_show__buy--warp {
+    margin-top: 30px;
+    font-size: 0; 
+}
+#product_show .product_show_right .product_show__buy--warp .title {
+    color: #999;
+    margin-right: 12px;
+    font-size: 14px;
+ }
+#product_show .product_show_right .product_show__buy--warp .num__warp {
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #e6e6e6;
+    color: #999;
+}
+#product_show .product_show_right .product_show__buy--warp .num__warp .allNum {
+    font-size: 16px; 
+}
+#product_show .product_show_right .product_show__buy--warp .num__warp a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: -16px;
+    border-radius: 0;
+    border: 1px solid #e6e6e6;
+    background: white;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    cursor: pointer; 
+}
+#product_show .product_show_right .product_show__buy--warp .num__warp a.plus {
+    top: -1px;
+    line-height: 12px;
+    border-bottom: 1px solid transparent; 
+}
+#product_show .product_show_right .product_show__buy--warp .num__warp a.reduce {
+    bottom: -1px; 
+}
+#product_show .product_show_right .product_show__buy--warp .num__warp a:hover {
+    background-color: #fba500;
+    color: white; 
+}
+#product_show .product_show_right .product_show__add {
+    margin-top: 30px; 
+}
+#product_show .product_show_right .product_show__add a {
+    background-color: #fba500;
+    border-color: transparent; 
+}
+#preview {position: relative;}
+#mask{
+     position: absolute;
+     width: 199px;
+     height: 199px;
+     background: #ffa;
+     opacity: 0.5;
+     top: 0;
+     left: 0;
+     display:none;
+ }
+#superMask{
+     position: absolute;
+     width: 400px;
+     height: 400px;
+     opacity: 0;
+     top: 0;
+     left: 0;
+     cursor: move;
+ }
+ #largeDiv{
+     position: absolute;
+     width: 400px;
+     height: 400px;
+     background: #fff;
+     background-size:800px 800px;
+     border: 1px solid #ddd;
+     top: 0;
+     left: 450px;
+     z-index: 99999;
+     display: none;
+ }
+
+/*产品详情部分*/
+#product_introduce .product_intro{
+    width:65%;
+    margin:50px auto;
+    min-width: 1200px;
+    border:1px solid #f1f1f1;
+}
+#product_introduce .product_intro .intro_bar {
+    width:100%;
+    height:50px;
+    background-color: #FAFAFA;
+    border-bottom:1px solid #f1f1f1;
+}
+#product_introduce .product_intro .intro_bar .intro {
+    width:160px;
+    height:50px;
+    background-color: #fba500;
+    line-height: 50px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align:center;
+}
+
+#product_introduce .product_intro .intro_img{
+    margin:40px auto;
+    width:100%;
+    height:332px;
+    background-image:url("../../images/product1.png");
+}
+#product_introduce .product_intro .recommend {
+    width:100%;
+    text-align: center;
+}
+#product_introduce .product_intro .recommend .recommendation{
+    width:292px;
+    height: 66px;
+    border: 1px solid #000;
+    color: #000;
+    padding-top:10px;
+    margin: 0 auto;
+}
+#product_introduce .product_intro .recommend .recommendation span:first-child {
+    font-size: 22px;
+}
+#product_introduce .product_intro .agent {
+    text-align: center;
+    padding:40px 0;
+}
+#product_introduce .product_intro .agent img {
+    width:707px;
+    height: 502px;
+}
+#product_introduce .product_intro .word_details {
+    font-size: 16px;
+}
+#product_introduce .product_intro .word_details .bar_details {
+    width:100%;
+    height: 50px;
+    background-color: #8DCEB6;
+    padding-left:25px;
+}
+#product_introduce .product_intro .word_details .bar_details span {
+    color:#fff;
+    font-size:22px;
+    line-height: 50px;
+}
+#product_introduce .product_intro .word_details .content_details {
+    background-color: #fafafa;
+    margin:30px 0;
+    padding:25px 0 10px 20px;
+}
+#product_introduce .product_intro .word_details .content_details p span {
+    font-weight:600;
+    display: inline-block;
+    width:80px;
+    text-align:justify; text-justify:inter-ideograph;
+}
+#product_introduce .product_intro div:last-child .content_details p:last-child {
+    font-weight: 600;
+    color:#fba500;
+}
+
+

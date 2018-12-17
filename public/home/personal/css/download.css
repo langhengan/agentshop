@@ -1,0 +1,28 @@
+#download {
+    margin: 60px auto;
+}
+#download:after{
+    content:"."; 
+    height:0; 
+    visibility:hidden;
+    display:block;
+    clear:both;
+}
+
+#download .personal .personal_right .template {
+    padding-top:20px;
+}
+#download .personal .personal_right .template div.template_title {
+    width:100%;
+    height:40px;
+    margin-left:20px;
+    font-size:16px;
+}
+#download .personal .personal_right .template .template_title span:first-child{
+    display: inline-block;
+    width:40%;
+}
+#download .personal .personal_right .template .template_title span.template_down {
+    color:#fba500;
+}
+   

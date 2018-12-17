@@ -1,0 +1,131 @@
+.order_company {
+  position: relative;
+  margin-top: 40px; }
+  .order_company .order_company--content {
+    font-size: 16px; }
+
+#order {
+  min-height: 900px; }
+  #order .order__title {
+    border-bottom: 1px solid #e6e6e6; }
+    #order .order__title .orderword {
+      float: left;
+      font-size: 20px; }
+    #order .order__title .order__content {
+      float: right; }
+  #order .order__title--item {
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    cursor: pointer; }
+    #order .order__title--item .word {
+      display: inline-block;
+      padding: 0 36px;
+      vertical-align: middle;
+      border-right: 1px solid #ebebeb; }
+      #order .order__title--item .word .num {
+        color: #fba500; }
+    #order .order__title--item.active .word {
+      color: #fba500; }
+    #order .order__title--item.active em {
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 100%;
+      height: 2px;
+      background: #fba500; }
+  #order .pullorder__title--warp {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0; }
+    #order .pullorder__title--warp .pullorder__title {
+      float: left;
+      width: 100%;
+      padding: 14px;
+      background-color: #f0f0f0; }
+  #order .pullorder__item--warp {
+    position: relative;
+    padding: 0; }
+    #order .pullorder__item--warp .pullorder__title {
+      padding: 10px;
+      background-color: #f0f0f0; }
+      #order .pullorder__item--warp .pullorder__title .ordertitle {
+        margin-left: 10px; }
+    #order .pullorder__item--warp .pullorder__item {
+      position: relative;
+      float: left;
+      width: 100%;
+      vertical-align: top;
+      background-color: #fafafa;
+      overflow: hidden;
+      border-left: 1px solid #ebebeb; }
+      #order .pullorder__item--warp .pullorder__item .pullorder__show--warp {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e6e6e6; }
+        #order .pullorder__item--warp .pullorder__item .pullorder__show--warp a {
+          float: left;
+          zoom: 1; }
+          #order .pullorder__item--warp .pullorder__item .pullorder__show--warp a img {
+            height: 78px;
+            width: 78px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border: 1px solid #e6e6e6; }
+        #order .pullorder__item--warp .pullorder__item .pullorder__show--warp .pullorder__content .content {
+          padding-top: 8px;
+          min-height: 50px;
+          margin-bottom: 0; }
+        #order .pullorder__item--warp .pullorder__item .pullorder__show--warp .pullorder__content .type {
+          margin-bottom: 2px;
+          margin-right: 20px;
+          color: #999; }
+      #order .pullorder__item--warp .pullorder__item .rightbordr {
+        border-right: 1px solid #ebebeb;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+      #order .pullorder__item--warp .pullorder__item .sameheight, #order .pullorder__item--warp .pullorder__item .name, #order .pullorder__item--warp .pullorder__item .price, #order .pullorder__item--warp .pullorder__item .status, #order .pullorder__item--warp .pullorder__item .option {
+        position: absolute;
+        padding-top: 20px;
+        color: #999;
+        height: 100%;
+        border-right: 1px solid #e6e6e6;
+        border-bottom: 1px solid #ebebeb; }
+      #order .pullorder__item--warp .pullorder__item .name {
+        width: 16.66667%; }
+      #order .pullorder__item--warp .pullorder__item .price {
+        width: 16.66667%;
+        margin-left: 16.66667%; }
+        #order .pullorder__item--warp .pullorder__item .price hr {
+          display: inline-block;
+          width: 60%;
+          margin: 0 0 0 0; }
+      #order .pullorder__item--warp .pullorder__item .status {
+        width: 8.33333%;
+        margin-left: 33%; }
+      #order .pullorder__item--warp .pullorder__item .option {
+        width: 16.66667%;
+        margin-left: 41.666667%;
+        color: #333; }
+        #order .pullorder__item--warp .pullorder__item .option a {
+          display: block; }
+        #order .pullorder__item--warp .pullorder__item .option .detail {
+          margin-bottom: 2px; }
+    #order .pullorder__item--warp .mangoods {
+      float: left;
+      margin-bottom: 10px;
+      width: 100%; }
+  #order .order_wrap_first {
+    width: 100%;
+    min-height: 700px; }
+    #order .order_wrap_first .order_wrap_only {
+      width: 150px;
+      margin: 0 auto;
+      margin-top: 270px; }
+    #order .order_wrap_first .order_wrap_only span {
+      display: block;
+      color: #999; }
+

@@ -1,0 +1,15 @@
+.breadcrumbs {
+    width:100%;
+    height:55px;
+    background-color: #FAFAFA;
+}
+.breadcrumbs div{
+    text-align: left;
+    font-size:14px;
+    line-height:55px;
+    margin:0 auto;
+    width:63%;
+}
+.breadcrumbs div span:last-child {
+    color:#fba500;
+}
